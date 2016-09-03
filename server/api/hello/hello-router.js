@@ -1,10 +1,8 @@
 let express = require('express');
 
 let router = express.Router();
+let controller = require('./hello-controller');
 
-router.get('/', function(req, res) {
-	console.log('Get request on hello/');
-	res.status(200).json({ message: 'Hello there!'});
-});
+router.get('/', controller.getHello);
 
 module.exports = router;
