@@ -1,0 +1,27 @@
+{
+  "name": "learning-express",
+  "version": "1.0.0",
+  "description": "Learning how to use express",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminj6/learning-express.git"
+  },
+  "author": "Benjamin Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminj6/learning-express/issues"
+  },
+  "homepage": "https://github.com/benjaminj6/learning-express#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
