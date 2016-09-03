@@ -4,11 +4,15 @@
   "description": "Learning how to use express",
   "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha server/test/test-server.js",
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benjaminj6/learning-express.git"
+  },
+  "jshintConfig": {
+    "esversion": "6"
   },
   "author": "Benjamin Johnson",
   "license": "ISC",
